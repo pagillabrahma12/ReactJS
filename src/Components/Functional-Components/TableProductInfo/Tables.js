@@ -1,9 +1,6 @@
 
 
 
-
-
-
 const TableData=()=>{
 
 const ProductInfo=[
@@ -261,7 +258,7 @@ return(
             <th>PRICE</th>
             <th>DESCRIPTION</th>
             <th>IMAGE</th>
-            <th>COUNT</th>
+            <th>COUNT</th> 
             <th>RATE</th>
         </tr>
 
