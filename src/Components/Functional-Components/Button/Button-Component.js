@@ -3,9 +3,9 @@
 
 
 
-function ButtonComponent(){
+function ButtonComponent({title,bgColor,width}){
     return(
-        <button>LOGIN</button>
+        <button style={{width:width,backgroundColor:bgColor}}>{title}</button>
     )
     
 }

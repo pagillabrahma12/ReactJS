@@ -5,22 +5,23 @@ import Table from "./Components/Functional-Components/table/table.js"
 import './App.css';
 //import UnorderList from "./Components/Functional-Components/list/UnorderList/Unorder-List.js";
 import TableData from "./Components/Functional-Components/TableProductInfo/Tables.js";
+import Profiles from "./Components/Functional-Components/props/Profile.js";
+import Parent from "./Components/Functional-Components/props/parent.js";
+
+
+
 function App(){
-
-  return(
+  return( 
     <div>
-      <h1></h1>
 
-    {/* <ButtonComponent/> */}
-    {/* <OrderList/>  */}
-    {/* <UnorderList/> */}
-    
- <TableData/>
-
-
+     
+    <Profiles/>
+    <Parent/>
 
 
     </div>
+
+
   )
 }
 export default App
