@@ -1,24 +1,22 @@
 
 //import ButtonComponent from "./Components/Functional-Components/Button/Button-Component"
 //import OrderList from "./Components/Functional-Components/list/OrderList/Order-List"
-import Table from "./Components/Functional-Components/table/table.js"
-import './App.css';
-//import UnorderList from "./Components/Functional-Components/list/UnorderList/Unorder-List.js";
-import TableData from "./Components/Functional-Components/TableProductInfo/Tables.js";
-import Profiles from "./Components/Functional-Components/props/Profile.js";
-import Parent from "./Components/Functional-Components/props/parent.js";
 
+import './App.css';
+import MyYoutube from './Components/Functional-Components/ImageComponent/YoutubeComponent/YoutubeSubscribe.js';
+
+
+import MyBrahma from './Components/Functional-Components/ImageComponent/brahma.js';
+import Mycomponent from "./Components/Functional-Components/ImageComponent/image.js";
 
 
 function App(){
   return( 
     <div>
 
-     
-    <Profiles/>
-    <Parent/>
-
-
+     <Mycomponent title="Brahma"/>
+    <MyBrahma name="PagillaBrahma"/>
+    <MyYoutube/>
     </div>
 
 
