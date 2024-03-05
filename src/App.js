@@ -6,14 +6,13 @@ import './App.css';
 import MyCards from './Components/GetApi/Cards';
 import ListData from './Components/GetApi/listData';
 import MyTable from './Components/GetApi/tableApi';
+import MyProducts from './Components/Increment-Decrement/Increment-Decrement';
 
 
 function App(){
   return( 
     <div>
-     <MyTable/>
-     <ListData/>
-     <MyCards/>
+  <MyProducts/>
     </div>
 
 
