@@ -1,22 +1,24 @@
 
-//import ButtonComponent from "./Components/Functional-Components/Button/Button-Component"
-//import OrderList from "./Components/Functional-Components/list/OrderList/Order-List"
-import Table from "./Components/Functional-Components/table/table.js"
+
 import './App.css';
-//import UnorderList from "./Components/Functional-Components/list/UnorderList/Unorder-List.js";
-import TableData from "./Components/Functional-Components/TableProductInfo/Tables.js";
-import Profiles from "./Components/Functional-Components/props/Profile.js";
-import Parent from "./Components/Functional-Components/props/parent.js";
+import EmployeesData from './Components/Functional-Components/UseState/Task.js';
+
+
+import UseStateEx1 from "./Components/Functional-Components/UseState/UseStateEx-1.js";
+import UseStateEx2 from './Components/Functional-Components/UseState/UseStateEx-2.js';
+import UseStateEx3 from './Components/Functional-Components/UseState/UseStateEx-3.js';
+import UseStateTable from './Components/Functional-Components/UseState/UseStateshowinTable.js';
 
 
 
 function App(){
   return( 
     <div>
-
-     
-    <Parent/>
-
+      <UseStateTable/>
+      <EmployeesData/>
+     <UseStateEx1/>
+    <UseStateEx2/>
+    <UseStateEx3/>
 
     </div>
 
