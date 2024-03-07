@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import "./reg.css"
 const RegistartionForm = () => {
@@ -213,5 +214,4 @@ const RegistartionForm = () => {
         </>
     );
 };
-
 export default RegistartionForm;
