@@ -1,0 +1,15 @@
+.container{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    border:2px solid black;
+    text-align: center;
+}
+button{
+    width:20%;
+    height:40px;
+    border-radius: 4px;
+    background-color:rgb(129, 164, 164);
+    font-size: large;
+    cursor: pointer;
+}

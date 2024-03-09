@@ -1,20 +1,22 @@
 
 
 import './App.css';
-import Uncontrolled from "./Components/Functional-Components/Forms/Uncontrolled.js";
-import Controlled from "./Components/Functional-Components/Forms/Controlled.js";
-import RegistartionForm from './Components/Functional-Components/Forms/Registaration.js';
+import UseEffect from './Components/Functional-Components/UseEffects/UseEffectEx1';
+import UseEffectEx3 from './Components/Functional-Components/UseEffects/UseEffectEx3';
+import UseEffectEx2 from './Components/Functional-Components/UseEffects/UseEffectEx2';
+import UseEffectEx4 from './Components/Functional-Components/UseEffects/UseEffectEx4';
+import ChangeTask from './Components/Functional-Components/UseEffects/Task';
+
 
 
 
 function App(){
   return( 
     <div>
-
-     
-    {/* <Uncontrolled/> */}
-    {/* <Controlled/> */}
-    <RegistartionForm/>
+      
+  {/* <UseEffectEx4/> */}
+  <ChangeTask/>
+  
 
     </div>
 
