@@ -5,6 +5,7 @@ import HomeScreen from "../../Pages/Home-Screen"
 import InvaildScreen from "../../Pages/Invaild-Screen"
 import ProfileScreen from "../../Pages/Profile-Screen"
 import SettingScreen from "../../Pages/Setting-Screen"
+import ProductDetail from "../../Pages/ProductDetail"
 
 
 
@@ -19,6 +20,8 @@ return(
         <Route path="/setting" Component={SettingScreen}/>
         <Route path="/about" Component={AboutScreen}/>
         <Route path="*" Component={InvaildScreen}/>
+
+        <Route path="/:category/:id" Component={ProductDetail}/> 
         </Routes>
  
     

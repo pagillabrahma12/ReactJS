@@ -1,12 +1,10 @@
 import { BrowserRouter } from "react-router-dom"
-
 import PostRoute from "./Routes/PostRoutes"
 import PreRoute from "./Routes/pre-routes"
 
 const NavigationStack=()=>{
 return(
     <BrowserRouter>
- 
     {
        true
         ?
@@ -14,9 +12,6 @@ return(
         :
        <PreRoute/>
     }
-
-
-
 
     </BrowserRouter>
 )
