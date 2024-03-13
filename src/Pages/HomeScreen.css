@@ -1,0 +1,27 @@
+
+.MainStyle{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width:100vw;
+    height: 100vh;
+    gap: 30px;
+    padding: 20px;
+    margin: auto;
+}
+.images{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.prices{
+    margin: auto;
+}
+.colors{
+    color:black;
+    text-Decoration:none;
+   
+}
+button{
+    margin: auto;
+}

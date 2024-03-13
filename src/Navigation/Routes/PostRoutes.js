@@ -32,3 +32,13 @@ return(
 export default PostRoute
 
 //Post Routing:after login pages routes
+//react-router-dom
+
+
+// Post Routing
+
+// 1.home
+// 2.about
+// 3.profile
+// 4.setting
+

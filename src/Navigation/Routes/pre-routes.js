@@ -24,3 +24,9 @@ return(
 export default PreRoute
 
 //Pre-routes:before login page rotues
+
+//Pre-Routing
+//1.Login
+// 2.register
+// 3.otp
+// 4.forgot password

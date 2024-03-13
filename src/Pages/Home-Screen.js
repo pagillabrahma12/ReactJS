@@ -4,7 +4,7 @@ import axios from "axios"
 import Card from 'react-bootstrap/Card';
 import { Link } from "react-router-dom";
 import SpinnerEx from "../Components/Functional-Components/Spinners/Spinner";
-
+import "./HomeScreen.css"
 const HomeScreen=()=>{
     const[data,setdata]=useState([])
     useEffect(()=>{
@@ -20,45 +20,45 @@ const HomeScreen=()=>{
      <>
     <Header/>
 
+    <div className="MainStyle">
      {
         data.length>0
         ?
         data.map((each)=>{
             return(
-                <>
-            <CustomCard data={each}/>
-
-                </>
+                <>                        
+                 <CustomCard data={each}/>
+                 </>
             )
         })
         :
         <SpinnerEx/>
      }
+     </div>
      </>
  
     ) 
  }
  export default HomeScreen;
 
-
  export function CustomCard(props) {
-    const{data:{image,category,description,title,id}}=props
-
+    const{data:{image,category,price,title,id}}=props
 
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={image} style={{width:100}} height={100}  />
+      <Card.Img variant="top" src={image} className="images"  />
       <Card.Body>
-        <Card.Title>{title}</Card.Title>
+        <Card.Title className="prices">{price}</Card.Title>
         <Card.Text>
-        {description}
+        {title}
         </Card.Text>
     <button >
-        <Link style={{textDecoration:"none"}} to={`/${category}/${id}`}>
+        <Link className="colors" to={`/${category}/${id}`}>
         Navigate
         </Link>
     </button>
       </Card.Body>
     </Card>
+    
   );
 }
